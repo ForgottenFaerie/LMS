@@ -19,7 +19,7 @@ This is a LMS system with lots of features (*coming soon*)
 
 ## How to Setup Locally.
 
->[! NOTE] *all instructions are fedora workstation 42. may be different for you OS/Distro.*
+> *all instructions are fedora workstation 42. may be different for you OS/Distro.*
 
 0. `cd /your/desired/directory`
 1. `git clone https://github.com/ForgottenFaerie/LMS.git`
