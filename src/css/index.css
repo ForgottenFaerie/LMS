@@ -1,0 +1,179 @@
+:root {
+    --brown: #A5825B;
+    --yellow: #FEF89F;
+    --green: #A7F3D0;
+    --green2: #CAC566;
+    --teal1: #4D828D;
+    --teal2: #234650;
+    --blue: #A7C5EB;
+    --blue2: #4B6F8C;
+    --blue3: #1E3A8A;
+    --blue4: #1D4ED8;
+    --blue5: #2563EB;
+    --purple: #D6BBFF;
+    --purple2: #6B4C9A;
+    --pink: #F8BBD0;
+    --pink2: #D81B60;
+    --red: #F87171;
+    --red2: #B91C1C;
+    --gray: #F3F4F6;
+    --gray2: #E5E7EB;
+    --gray3: #D1D5DB;
+    --gray4: #9CA3AF;
+    --gray5: #6B7280;
+    --gray6: #4B5563;
+    --gray7: #374151;
+    --gray8: #1F2937;
+    --black: #111827;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--gray);
+    color: var(--black);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--gray2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.lexend-deca- {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inconsolata {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.old-standard-tt-regular {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.old-standard-tt-bold {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.google-sans-code {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+.HDR-Col-1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.bi {
+    font-size: large;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px 16px;
+    border-radius: 2px;
+    min-width: 80px;
+    height: 32px;
+    background-color: var(--blue2);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid var(--blue3);
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+button:hover {
+    background-color: var(--blue);
+    border: 1px solid var(--blue2);
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.HDR-Col-1 h1 {
+    text-align: center;
+}
+
+.Landing-Text {
+    color: var(--gray8);
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.course-1 {
+    background-color: var(--blue2);
+    color: var(--white);
+    padding: 1rem;
+    margin: auto;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
