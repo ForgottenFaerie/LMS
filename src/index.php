@@ -4,7 +4,7 @@
         <meta lang="en">
         <meta charset="UTF-8">
         <title>Welcome!</title>
-        <link rel="stylesheet" href="src/css/index.css">
+        <link rel="stylesheet" href="/src/css/index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/Favicon/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
         <header>
             <div class="HDR-Col-1">
                 <a href="index.php">
-                    <img src="assets/LOGO-WITHOUT-BG.png" alt="Logo W/ Transparent BG" width="100" height="100" />
+                    <img src="/assets/LOGO-WITHOUT-BG.png" alt="Logo W/ Transparent BG" width="100" height="100" />
                 </a>
                 <h1>Welcome to Evergreen Global Institute LMS</h1>
             </div>
@@ -47,7 +47,7 @@
                     <h2>Some Courses We Offer</h2>
                 </section>
                 <div class="course-1">
-                    <img src="assets/flag-of-china.webp" alt="Flag of China" width="75" height="50">
+                    <img src="/assets/flag-of-china.webp" alt="Flag of China" width="75" height="50">
                     <h3>Introduction to Mandarin Chinese</h3>
                     <p>Learn the basics of Mandarin Chinese, including pronunciation, vocabulary, and grammar.</p>
                     <button>
@@ -56,15 +56,45 @@
                 </div>
                     <br />
                 <div class="course-1">
-                    <img src="assets/cybersec-course-img.jpg" width="75" height="50"/>
+                    <img src="/assets/cybersec-course-img.jpg" width="75" height="50"/>
                     <h3>Cybersecurity Fundamentals</h3>
                     <p>Understand the principles of cybersecurity, including threat analysis and risk management.</p>
                     <button>
                         <a href="courses/cybersecurity.php">Learn More</a>
                     </button> 
                 </div>
+                    <br />
+                <div class="course-1">
+                    <img src="/assets/ESL-CLASS.png" width="75" height="50"/>
+                    <h3>English Second Language</h3>
+                    <p>Get basic understanding of the English language!</p>
+                    <button>
+                        <a href="courses/esl.php">Learn More</a>
+                    </button> 
+                </div>
+                    <br />
+                <section class="contact" id="contact">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+                    <button>
+                        <a href="contact.php">Contact Form</a>
+                    </button>
+                </section>
             </article>
         </main>
-        <footer></footer>
+        <footer>
+            <p>&copy; 2025 Evergreen Global Institute. All rights reserved.</p>
+                <br />
+            <div class="footer-col-L">
+                <p>Follow Us on Social Media!</p>
+                <a><i class="bi bi-twitter"></i></a>
+                <a><i class="bi bi-facebook"></i></a>
+                <a><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="footer-col-R">
+                <p>Privacy Statement.</p>
+                <p>Terms of Service.</p>
+            </div>
+        </footer>
     </body>
 </html>
